@@ -1,4 +1,4 @@
-package slice-contain
+package slicecontain
 
 import (
 	"fmt"
