@@ -1,5 +1,6 @@
 package slicecontain
 
+var Test string = "Privet"
 
 func Contain(s []string,  x string) bool {
 	for _, v := range s {
