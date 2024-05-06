@@ -1,8 +1,5 @@
 package slicecontain
 
-import (
-	"fmt"
-)
 
 func Contain(s []string,  x string) bool {
 	for _, v := range s {
