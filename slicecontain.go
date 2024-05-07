@@ -12,7 +12,7 @@ func Contain(s []string,  x string) bool {
 	return false
 }
 
-func ContainInt(s []int, i int) bool {
+func InSliceInt(s []int, i int) bool {
 	for _, v := range s {
 		if v == i {
 			return true
